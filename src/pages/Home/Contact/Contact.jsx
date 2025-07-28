@@ -35,22 +35,19 @@ const Contact = () => {
 
     const [branchStatus, setBranchStatus]=useState(false);
 
-    const handleBranch = (branch)=>{
-        console.log(branch);
-        setBranchStatus(true);
+    const [selectedBranch, setSelectedBranch]=useState('');
+    const handleBranch=(branch)=>{
+        setSelectedBranch(branch);
     }
-    useEffect(()=>{
-        setBranchStatus(false);
-    },[handleBranch]);
     return (
         <div className='w-[90%] mt-10 mx-auto'>
 
-            <div className='flex justify-center'>
+            <div className='flex my-4 justify-center'>
                 <div className=' flex gap-12'>
 
                     {
                         branches.map((branch, index) => (
-                            <div onClick={()=>handleBranch(branch.name)} key={index} className='flex flex-col items-center'>
+                            <div onClick={()=>handleBranch(branch.name)} key={index} className={`flex flex-col px-4 py-3 items-center ${selectedBranch == branch.name ? 'border border-[#B0DD1D] rounded-2xl  bg-[#b0dd1d1a] ': ''}`}>
                                 <img className='w-[116px] h-[104px]' src={branch.image} alt="coim" />
                                 <p className='text-sm font-medium'>
                                     {branch.name}
