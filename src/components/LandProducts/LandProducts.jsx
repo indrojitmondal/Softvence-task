@@ -1,33 +1,34 @@
 import React from 'react';
 import Card from '../Card/Card';
-import ap1 from './Images/ap1.jpeg'
-import ap2 from './Images/ap2.jpeg'
-import ap3 from './Images/ap3.jpeg'
-import ap4 from './Images/ap-4.png'
+import lp1 from './Images/lp1.jpeg'
+import lp2 from './Images/lp2.jpeg'
+import lp3 from './Images/lp3.jpeg'
+import lp4 from './Images/lp4.jpeg'
 
-const AgriProducts = () => {
+const LandProducts = () => {
     const products=[
-        {name: 'JF Barbed Wire- 270 GSM',
-         price: `₹4,995.00
+        {name: 'Antiqo Fence',
+         price: `₹10,024.00 – ₹14,984.82
          `,
-         image: ap1
+         image: lp1
         },
         {
-         name: 'FGC RustFree Fencing Poles',
-         price: `₹499.00 – ₹1,589.00`,
-         image: ap2
+         name: 'JF Australian Trellis',
+         price: `₹6,962.00`,
+         image: lp2
 
         },
         {
-            name: 'GI Poultry Mesh',
-            price: `₹1,260.00 – ₹10,750.00`,
-            image: ap3
+            name: 'JF Polyhex Mesh',
+            price: `₹4,050.00 – ₹10,770.00`,
+            image: lp3
    
         },
         {
-            name: 'JF Bluelink Mesh',
-            price: `₹3,067.50 – ₹6,362.50`,
-            image: ap4
+            name: 'JF Privezy Grass Wall',
+            price: `₹1,646.10 – ₹18,284.10
+            `,
+            image: lp4
    
         }
 
@@ -55,7 +56,8 @@ const AgriProducts = () => {
             </div>
               
              <div className='w-[90%]  mx-auto'>
-             <h1 className='text-[42px] font-[500]'>Agricultural Products
+             <h1 className='text-[42px] font-[500]'>Landscape Products
+
               </h1>
               <div className='grid mt-[40px] grid-cols-1 md:grid-cols-4 gap-[40px]'>
                 
@@ -79,4 +81,4 @@ const AgriProducts = () => {
     );
 };
 
-export default AgriProducts;
+export default LandProducts;
