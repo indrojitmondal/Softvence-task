@@ -9,37 +9,7 @@ import mum from './BrancheImages/mum.png'
 import locationImage from './BrancheImages/locationIcon.png'
 import SubmitButton from '../../../components/SubmitButton/SubmitButton';
 const Contact = () => {
-    // const branches = [
-    //     {
-    //         name: 'COIMBATORE',
-    //         image: coim,
-    //         location:{
-    //             name: 'JRR Towers (2nd Floor)',
-    //             details: 'Pattalamma Temple Rd, Basavangudi, Bangalore, 560004'
-    //         },
-    //         googleMapLocation:'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7697.116931362253!2d73.956657!3d15.291856000000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfb15e7e06ff53%3A0xe68cf123ac7e8b6a!2sEvershine%20Dynamic%20Corporation%20Ltd!5e0!3m2!1sen!2sus!4v1753713194408!5m2!1sen!2sus'
-    //     },
-    //     {
-    //         name: 'CHENNAI',
-    //         image: chan,
-    //     },
-    //     {
-    //         name: 'HYDERABAD',
-    //         image: haid,
-    //     },
-    //     {
-    //         name: 'GOA',
-    //         image: goa,
-    //     },
-    //     {
-    //         name: 'KOCHI',
-    //         image: kochia,
-    //     },
-    //     {
-    //         name: 'MUMBAI',
-    //         image: mum
-    //     }
-    // ]
+    
 
     const branches = [
         {
@@ -121,8 +91,8 @@ const Contact = () => {
     return (
         <div className='w-[90%] border border-gray-200 rounded-2xl p-5  mt-10 mx-auto'>
 
-            <div className='flex my-4 justify-center'>
-                <div className=' flex gap-12'>
+            <div className='flex  my-4 justify-center'>
+                <div className=' flex flex-col-reverse md:flex-row gap-12'>
 
                     {
                         branches.map((branch, index) => (
@@ -167,7 +137,7 @@ const Contact = () => {
                      </div>
                 </div>
 
-                <div className='relative'>
+                <div className='md:relative'>
                     {/* Google Map */}
                     <div className="w-full h-72 sm:h-96 md:h-[700px] px-3">
                         <iframe
@@ -180,7 +150,7 @@ const Contact = () => {
                         ></iframe>
                     </div>
 
-                    <div className='flex absolute bottom-5 left-5 w-[680px] p-7 rounded-3xl bg-white text-black gap-7 items-center'>
+                    <div className='flex md:absolute bottom-5 left-5 md:w-[680px] p-7 rounded-3xl bg-white text-black gap-7 items-center'>
                         <img src={locationImage} alt="location" />
                         <p className='text-lg font-normal'> <span className='font-[600]'>{locationTitle}</span> {locationDetails} </p>
                     </div>
