@@ -38,7 +38,7 @@ const WhyUs = () => {
                 </div>
           
 
-                <div className='transform -translate-y-10 bg-gradient-to-b from-[#002B55]  to-[#FFFFFF] px-[40px] py-7 rounded-2xl'>
+                <div className='transform -translate-y-10 bg-[#002B55] text-white px-[40px] py-7 rounded-2xl'>
                     <img className=' w-[49px] h-[52px]' src={two} alt="group2" />
                     <h2 className='text-[26px] font-[500] mt-[30px]'>Customer-Centric
                         Approach</h2>
