@@ -27,7 +27,7 @@ const Hero = () => {
                 </svg>
             </div>
 
-            <div className='w-[90%] grid grid-cols-2  mx-auto'>
+            <div className='w-[90%]  grid grid-cols-1 md:grid-cols-2  mx-auto'>
                 {/* left  */}
                 <div>
                     <img src={heroLeftImage} alt="leftImage" />
