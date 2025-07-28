@@ -15,7 +15,7 @@ const WhyUs = () => {
 
             <div className='mt-20  grid grid-cols-1 gap-[40px] md:grid-cols-3'>
 
-                <div className='bg-gradient-to-tr from-[#FFFFFF]  to-[#B6D3F0] px-[40px] py-7 rounded-3xl'>
+                <div className='bg-gradient-to-b from-[#B6D3F0]  to-[#FFFFFF] px-[40px] py-7 rounded-2xl '>
 
                    
                         <img className=' w-[49px] h-[52px]' src={one} alt="group1" />
@@ -38,7 +38,7 @@ const WhyUs = () => {
                 </div>
           
 
-                <div className='transform -translate-y-10 bg-gradient-to-tr from-[#FFFFFF]  to-[#002B55] px-[40px] py-7 rounded-3xl'>
+                <div className='transform -translate-y-10 bg-gradient-to-b from-[#002B55]  to-[#FFFFFF] px-[40px] py-7 rounded-2xl'>
                     <img className=' w-[49px] h-[52px]' src={two} alt="group2" />
                     <h2 className='text-[26px] font-[500] mt-[30px]'>Customer-Centric
                         Approach</h2>
@@ -53,7 +53,7 @@ const WhyUs = () => {
                         from our valued clients.
                     </p>
                 </div>
-                <div className='bg-gradient-to-tr from-[#FFFFFF]  to-[#B6D3F0] px-[40px] py-7 rounded-3xl'>
+                <div className='bg-gradient-to-b from-[#B6D3F0]  to-[#FFFFFF] px-[40px] py-7 rounded-2xl '>
 
                     <img className=' w-[49px] h-[52px]' src={three} alt="group3" />
 
