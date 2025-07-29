@@ -89,7 +89,7 @@ const Contact = () => {
         setLocationDetails(branch.location.details);
     }
     return (
-        <div className=' w-[90%] border border-gray-200 rounded-2xl p-5  mt-14 mx-auto'>
+        <div className=' w-[90%]  border border-gray-200 rounded-2xl p-5  mt-40 mx-auto'>
 
 <div className='text-center -translate-y-12'>
 

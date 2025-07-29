@@ -6,6 +6,8 @@ import LandProducts from '../../components/LandProducts/LandProducts';
 import CustomerReviews from '../../components/CustomerReviews/CustomerReviews';
 import WhyUs from '../../components/WhyUs/WhyUs';
 import Contact from './Contact/Contact';
+import Headline from '../../components/Headline/Headline';
+import CustomerFeedback from '../../components/CustomerFeedback/CustomerFeedback';
 
 const Home = () => {
     return (
@@ -18,6 +20,8 @@ const Home = () => {
              </div>
              <CustomerReviews></CustomerReviews>
              <WhyUs></WhyUs>
+             <Headline></Headline>
+             <CustomerFeedback></CustomerFeedback>
              <Contact></Contact>
         </div>
     );
