@@ -89,8 +89,13 @@ const Contact = () => {
         setLocationDetails(branch.location.details);
     }
     return (
-        <div className='w-[90%] border border-gray-200 rounded-2xl p-5  mt-10 mx-auto'>
+        <div className=' w-[90%] border border-gray-200 rounded-2xl p-5  mt-14 mx-auto'>
 
+<div className='text-center -translate-y-12'>
+
+<button className='btn bg-[#B0DD1D] rounded-[100px] text-lg font-medium text-black px-8 py-6'>Our Branches</button>
+
+</div>
             <div className='flex  my-4 justify-center'>
                 <div className=' flex flex-col-reverse md:flex-row gap-12'>
 
@@ -112,7 +117,7 @@ const Contact = () => {
             </div>
             <div className='grid mt-7  px-4 grid-cols-1 gap-5 md:grid-cols-[40%_60%]'>
 
-                <div className='bg-[#002B55] rounded-3xl p-12 text-white'>
+                <div className='bg-[#002B55] rounded-3xl p-3 md:p-12 text-white'>
                     <h1 className='text-[32px] font-medium'>Contact Us</h1>
                 
                      <div className='py-[30px]'>
@@ -152,7 +157,7 @@ const Contact = () => {
 
                     <div className='flex md:absolute bottom-5 left-5 md:w-[680px] p-7 rounded-3xl bg-white text-black gap-7 items-center'>
                         <img src={locationImage} alt="location" />
-                        <p className='text-lg font-normal'> <span className='font-[600]'>{locationTitle}</span> {locationDetails} </p>
+                        <p className='text-lg font-normal'> <span className='font-[600]'>{locationTitle}</span>, {locationDetails} </p>
                     </div>
                 </div>
 
@@ -166,6 +171,8 @@ const Contact = () => {
 
 
 
+        
+        
         </div>
     );
 };
