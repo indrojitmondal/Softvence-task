@@ -8,6 +8,7 @@ import WhyUs from '../../components/WhyUs/WhyUs';
 import Contact from './Contact/Contact';
 import Headline from '../../components/Headline/Headline';
 import CustomerFeedback from '../../components/CustomerFeedback/CustomerFeedback';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
              <Headline></Headline>
              <CustomerFeedback></CustomerFeedback>
              <Contact></Contact>
+             <Footer></Footer>
         </div>
     );
 };
