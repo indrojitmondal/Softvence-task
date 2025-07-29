@@ -115,7 +115,7 @@ const Contact = () => {
 
                 </div>
             </div>
-            <div className='grid mt-7  px-4 grid-cols-1 gap-5 md:grid-cols-[40%_60%]'>
+            <div className='grid mt-7  md:px-4 grid-cols-1 gap-5 md:grid-cols-[40%_60%]'>
 
                 <div className='bg-[#002B55] rounded-3xl p-3 md:p-12 text-white'>
                     <h1 className='text-[32px] font-medium'>Contact Us</h1>
@@ -127,6 +127,7 @@ const Contact = () => {
                            <div className='space-y-5 mt-5'>
 
                            <input type="email" placeholder="Email" className=" pl-[30px] py-[20px] bg-[#1A4166] outline-0 text-white rounded-3xl w-full " />
+                           
                            <input type="text" placeholder="Phone *" className=" pl-[30px] py-[20px] bg-[#1A4166] outline-0 text-white rounded-3xl w-full " />
                            
                            <textarea className='pl-[30px] h-[134px] py-[20px] bg-[#1A4166] outline-0 text-white rounded-3xl w-full ' name="" placeholder='Write message' id="" ></textarea>
