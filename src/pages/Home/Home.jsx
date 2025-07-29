@@ -23,6 +23,7 @@ const Home = () => {
              <WhyUs></WhyUs>
              <Headline></Headline>
              <CustomerFeedback></CustomerFeedback>
+            
              <Contact></Contact>
              <Footer></Footer>
         </div>

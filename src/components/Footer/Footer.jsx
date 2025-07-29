@@ -21,7 +21,7 @@ const Footer = () => {
                         <div className='mt-6 flex gap-3 items-center'>
                             <input
                                 type="checkbox"
-                                defaultChecked
+                               
                                 className="border border-white rounded-sm text-white"
                             />
                             <span>Yes, subscribe me to your newsletter.</span>
