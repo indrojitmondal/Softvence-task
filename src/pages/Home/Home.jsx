@@ -9,13 +9,19 @@ import Contact from './Contact/Contact';
 import Headline from '../../components/Headline/Headline';
 import CustomerFeedback from '../../components/CustomerFeedback/CustomerFeedback';
 import Footer from '../../components/Footer/Footer';
+import Sliders from '../../components/Hero/Carousel/Sliders';
 
 const Home = () => {
     return (
         <div>
              <Navbar></Navbar>
-             <Hero></Hero>
+             {/* <Hero></Hero> */}
+
+             <Sliders></Sliders>
+
+             <div className=''>
              <AgriProducts></AgriProducts>
+             </div>
              <div className='mt-20'>
              <LandProducts ></LandProducts>
              </div>
